@@ -1,4 +1,5 @@
 <template>
+
     <v-container>
         <v-col align="center">
             <PricingSelector v-on:selectType="onSelectType" />
@@ -9,6 +10,7 @@
                 <PricingVariant v-bind:data="data[type][2]" />
             </div>
         </v-col>
+
     </v-container>
 </template>
 

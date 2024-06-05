@@ -8,7 +8,7 @@
         <h3 style="font-weight: 400;">Figma connects everyone in the design process so teams can deliver better products
           faster.</h3>
         <br>
-        <v-btn outlined color="black" @click="scrollToForm">
+        <v-btn style="align:center; background-color: blue; color: white;" @click="scrollToForm">
           Sign up free
         </v-btn>
       </v-col>

@@ -15,6 +15,9 @@
         <PricingCard v-bind:data="data[type][2]" />
       </div>
     </v-col>
+<!--    <v-col cols="12" md="4" sm="6">-->
+<!--      <v-btn size="x-large" block>Button</v-btn>-->
+<!--    </v-col>-->
   </v-container>
 </template>
 

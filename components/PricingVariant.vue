@@ -9,6 +9,10 @@
         <ul>
             <li v-for="element, index in data.features" :key="index">{{ element }}</li>
         </ul>
+
+          <v-btn style="background-color: blue; color: white;" rounded="lg" size="x-large" block>Get for free</v-btn>
+
+
     </div>
 </template>
 
@@ -69,4 +73,5 @@ li {
     padding-left: 24px;
     margin-left: -24px;
 }
+
 </style>
